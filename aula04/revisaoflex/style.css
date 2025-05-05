@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#cabecalho {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+}
+
+#menu {
+  display: flex;
+}
+
+#esquerdo {
+  background-color: red;
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+  color: transparent;
+}
+
+#direito {
+  background-color: blueviolet;
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+  color: transparent;
+}
