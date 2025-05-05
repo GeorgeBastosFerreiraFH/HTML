@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #cartao {
+    background-color: darkslategray;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #cabecalho img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  #corpo {
+    background-color: white;
+    color: black;
+    padding: 10px;
+  }
+  
+  #rodape {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  #rodape a {
+    text-decoration: none;
+    color: white;
+  }
