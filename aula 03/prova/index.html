@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova Aula 06</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Formulario Simples</h1>
+        <form action="#" method="post" id="formulario">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+            </div>
+
+            <div>
+                <label for="paises">País</label>
+                <select name="paises" id="paises" required>
+                    <option disabled selected>Qual o seu País</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colômbia</option>
+                    <option value="mexico">México</option>
+                </select>
+            </div>
+
+            <div>
+                <textarea name="mensagem" id="mensagem" placeholder="Digite uma mensagem ou descrição" rows="4" cols="50"></textarea>
+            </div>
+
+            <div id="botoes">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
