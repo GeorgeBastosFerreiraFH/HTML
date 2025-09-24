@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px dashed #ccc;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #4A90E2;
+    border: 2px dashed #ccc;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
