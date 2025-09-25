@@ -1,0 +1,80 @@
+:root {
+    --font-size-h1: 24px;
+    --font-size-h2: 18px;
+    --font-size-p: 14px;
+    --spacing: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: var(--spacing);
+    padding: var(--spacing);
+    line-height: 1.5;
+}
+
+header {
+    margin-bottom: var(--spacing);
+    padding-bottom: var(--spacing);
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: var(--spacing);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    margin-bottom: var(--spacing);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    margin-bottom: var(--spacing);
+}
+
+p, li {
+    font-size: var(--font-size-p);
+    margin-bottom: var(--spacing);
+}
+
+footer {
+    margin-top: var(--spacing);
+    padding-top: var(--spacing);
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    :root {
+        --font-size-h1: 32px;
+        --font-size-h2: 22px;
+        --font-size-p: 16px;
+        --spacing: 15px;
+    }
+
+    nav ul {
+        gap: calc(var(--spacing) * 2);
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --font-size-h1: 40px;
+        --font-size-h2: 28px;
+        --font-size-p: 18px;
+        --spacing: 20px;
+    }
+
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
